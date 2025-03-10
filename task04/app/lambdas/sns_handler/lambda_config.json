@@ -7,11 +7,11 @@
   "runtime": "nodejs20.x",
   "memory": 128,
   "timeout": 100,
-  "lambda_path": "lambdas\\sns_handler",
+  "lambda_path": "lambdas/sns_handler",
   "dependencies": [],
   "event_sources": [
     {
-      "resource_name": "SNS_Topic",
+      "resource_name": "lambda_topic",
       "event_type": "sns"
     }
   ],
